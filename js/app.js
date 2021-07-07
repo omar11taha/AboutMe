@@ -62,7 +62,7 @@ function question4() {
 question4();
 
 
-
+function question5(){
 for (let number = 6; number < 10; number++) {
   let i = prompt('gis number from 1 to 10');
 
@@ -80,6 +80,8 @@ for (let number = 6; number < 10; number++) {
   }
 
 }
+}
+question5();
 
 const courses = ['Autocad', 'prokon', 'etaps', 'civil3d', 'safe'];
 for (let o = 0; o < 6; o++) {
