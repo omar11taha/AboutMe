@@ -1,6 +1,6 @@
 'use strict';  
 
-
+function question1(){
 let username = prompt('what is your name');
 alert('helle ' + username + ' lit us play a game');
 let score = 0
@@ -14,6 +14,8 @@ if (contry === 'yes' || contry === 'y') {
   alert('no,i am form jordan');
   // console.log('no,i am form jordan');
 }
+}
+question1();
 let study = prompt('do you think i am a civil engineer?(yes(y) or no(n))');
 study = study.toLowerCase();
 if (study === 'yes' || study === 'y') {
