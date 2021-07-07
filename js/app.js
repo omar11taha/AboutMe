@@ -44,7 +44,7 @@ if (work === 'yes' || work === 'y') {
 }
 }
 question3();
-function question4(){
+ 
 let years = prompt('do you think i worked 4 years as a civil engineer?(yes(y) or no(n))');
 years = years.toLowerCase();
 if (years === 'yes' || years === 'y') {
@@ -58,8 +58,8 @@ if (years === 'yes' || years === 'y') {
 
 
 alert('thank you ' + username + ' I\'m glad you\'re here');
-}
-question4();
+
+
 
 
 for (let number = 6; number < 10; number++) {
