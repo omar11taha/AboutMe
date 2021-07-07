@@ -62,45 +62,48 @@ function question4() {
 question4();
 
 
-function question5(){
-for (let number = 6; number < 10; number++) {
-  let i = prompt('gis number from 1 to 10');
+function question5() {
+  for (let number = 6; number < 10; number++) {
+    let i = prompt('gis number from 1 to 10');
 
-  if (i === '7') {
-    alert('the number =7 you are good');
-    break;
-  }
-  else if (i > 7) {
-    alert('the number is too high');
-    continue;
-  }
-  else if (i < 7) {
-    alert('the number is too low');
-    continue;
-  }
-
-}
-}
-question5();
-
-const courses = ['Autocad', 'prokon', 'etaps', 'civil3d', 'safe'];
-for (let o = 0; o < 6; o++) {
-  // alert(courses[o]);
-  let userInpot = prompt('what is my favoret course in civil engineering?')
-  for (let m = 0; m < courses.length; m++) {
-
-    if (courses[m] === userInpot) {
-      alert('you are good');
-      o = 6
+    if (i === '7') {
+      alert('the number =7 you are good');
       break;
-
     }
-    else {
+    else if (i > 7) {
+      alert('the number is too high');
+      continue;
+    }
+    else if (i < 7) {
+      alert('the number is too low');
       continue;
     }
 
   }
 }
-alert("Autocad,prokon,etaps,civil3d,safe");
+question5();
 
-alert('your score is ' + score)
+function question6() {
+  const courses = ['Autocad', 'prokon', 'etaps', 'civil3d', 'safe'];
+  for (let o = 0; o < 6; o++) {
+    // alert(courses[o]);
+    let userInpot = prompt('what is my favoret course in civil engineering?')
+    for (let m = 0; m < courses.length; m++) {
+
+      if (courses[m] === userInpot) {
+        alert('you are good');
+        o = 6
+        break;
+
+      }
+      else {
+        continue;
+      }
+
+    }
+  }
+  alert("Autocad,prokon,etaps,civil3d,safe");
+
+  alert('your score is ' + score)
+}
+question6();
