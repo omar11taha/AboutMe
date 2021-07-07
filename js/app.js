@@ -16,6 +16,8 @@ if (contry === 'yes' || contry === 'y') {
 }
 }
 question1();
+
+function question2(){
 let study = prompt('do you think i am a civil engineer?(yes(y) or no(n))');
 study = study.toLowerCase();
 if (study === 'yes' || study === 'y') {
@@ -26,6 +28,9 @@ if (study === 'yes' || study === 'y') {
   alert('no,i am a civil engineer');
   // console.log('no,i am a civil engineer');
 }
+}
+question2();
+
 let work = prompt('do you think i worked as a civil engineer?(yes(y) or no(n))');
 work = work.toLowerCase();
 if (work === 'yes' || work === 'y') {
