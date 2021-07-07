@@ -70,7 +70,7 @@ for (let m = 0; m < courses.length; m++) {
  
   if(courses[m]===userInpot){
     alert('you are good');
-    o=6
+    o=6;
   break;
 
 }
