@@ -31,6 +31,7 @@ if (study === 'yes' || study === 'y') {
 }
 question2();
 
+function question3(){
 let work = prompt('do you think i worked as a civil engineer?(yes(y) or no(n))');
 work = work.toLowerCase();
 if (work === 'yes' || work === 'y') {
@@ -41,6 +42,9 @@ if (work === 'yes' || work === 'y') {
   alert('no,i worked as civil engineer');
   // console.log('no,i worked as civil engineer');
 }
+}
+question3();
+function question4(){
 let years = prompt('do you think i worked 4 years as a civil engineer?(yes(y) or no(n))');
 years = years.toLowerCase();
 if (years === 'yes' || years === 'y') {
@@ -52,8 +56,10 @@ if (years === 'yes' || years === 'y') {
   console.log('no,i worked as civil engineer 4 years');
 }
 
-alert('thank you ' + username + ' I\'m glad you\'re here');
 
+alert('thank you ' + username + ' I\'m glad you\'re here');
+}
+question4();
 
 
 for (let number = 6; number < 10; number++) {
