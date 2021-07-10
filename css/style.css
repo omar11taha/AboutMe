@@ -1,0 +1,24 @@
+p{
+    color: rgb(0, 89, 255);
+}
+ol{
+    color: brown;
+}
+ul{
+    color: darkblue;
+}
+h1{
+    color: rgba(130, 0, 0, 0.479);
+}
+h2{
+    background-color: indigo;
+    color: lawngreen;
+}
+ul{
+    position: relative;
+    left: 20%;
+}
+#work{
+    position: relative;
+    left: 25%;
+}

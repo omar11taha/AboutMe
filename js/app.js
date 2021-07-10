@@ -1,10 +1,11 @@
 'use strict';
-
-function question1() {
-  let username = prompt('what is your name');
-  alert('helle ' + username + ' lit us play a game');
-  let score = 0
+let username = prompt('what is your name');
+let score = 0
   let contry = prompt('do you think i am from jordan?(yes(y) or no(n))');
+function question1() {
+  
+  alert('helle ' + username + ' lit us play a game');
+  
   contry = contry.toLowerCase();
   if (contry === 'yes' || contry === 'y') {
     alert('you are true, i am from jordan');
@@ -68,6 +69,7 @@ function question5() {
 
     if (i === '7') {
       alert('the number =7 you are good');
+      score++;
       break;
     }
     else if (i > 7) {
@@ -93,6 +95,7 @@ function question6() {
       if (courses[m] === userInpot) {
         alert('you are good');
         o = 6
+        score++;
         break;
 
       }
@@ -104,6 +107,6 @@ function question6() {
   }
   alert("Autocad,prokon,etaps,civil3d,safe");
 
-  alert('your score is ' + score)
+  alert('your score is ' + score +' /6')
 }
 question6();
