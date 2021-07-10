@@ -1,22 +1,4 @@
 'use strict';
-<<<<<<< HEAD
-let username = prompt('what is your name');
-let score = 0
-  let contry = prompt('do you think i am from jordan?(yes(y) or no(n))');
-function question1() {
-  
-  alert('helle ' + username + ' lit us play a game');
-  
-  contry = contry.toLowerCase();
-  if (contry === 'yes' || contry === 'y') {
-    alert('you are true, i am from jordan');
-    score++
-    // console.log('you are true, i am from jordan');
-  } else {
-    alert('no,i am form jordan');
-    // console.log('no,i am form jordan');
-  }
-=======
 let score=0;
 let username = prompt('what is your name');
 function question1(){
@@ -33,7 +15,6 @@ if (contry === 'yes' || contry === 'y') {
   alert('no,i am form jordan');
   // console.log('no,i am form jordan');
 }
->>>>>>> 599c80b3ec3a41f108bdd569ff73050436ae771e
 }
 question1();
 function question2(){
@@ -94,29 +75,7 @@ else if(i<7){
 alert('the number is too low');
 continue;}
 
-<<<<<<< HEAD
-function question5() {
-  for (let number = 6; number < 10; number++) {
-    let i = prompt('gis number from 1 to 10');
-
-    if (i === '7') {
-      alert('the number =7 you are good');
-      score++;
-      break;
-    }
-    else if (i > 7) {
-      alert('the number is too high');
-      continue;
-    }
-    else if (i < 7) {
-      alert('the number is too low');
-      continue;
-    }
-
-  }
-=======
 }
->>>>>>> 599c80b3ec3a41f108bdd569ff73050436ae771e
 }
 question5();
 function question6(){
@@ -132,37 +91,11 @@ for (let m = 0; m < courses.length; m++) {
     score++;
   break;
 
-<<<<<<< HEAD
-function question6() {
-  const courses = ['Autocad', 'prokon', 'etaps', 'civil3d', 'safe'];
-  for (let o = 0; o < 6; o++) {
-    // alert(courses[o]);
-    let userInpot = prompt('what is my favoret course in civil engineering?')
-    for (let m = 0; m < courses.length; m++) {
-
-      if (courses[m] === userInpot) {
-        alert('you are good');
-        o = 6
-        score++;
-        break;
-
-      }
-      else {
-        continue;
-      }
-
-    }
-  }
-  alert("Autocad,prokon,etaps,civil3d,safe");
-
-  alert('your score is ' + score +' /6')
-=======
 }
   else{
     continue;
   }
   
->>>>>>> 599c80b3ec3a41f108bdd569ff73050436ae771e
 }
 }
 }
