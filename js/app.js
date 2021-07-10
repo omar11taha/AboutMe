@@ -1,4 +1,5 @@
 'use strict';
+<<<<<<< HEAD
 let username = prompt('what is your name');
 let score = 0
   let contry = prompt('do you think i am from jordan?(yes(y) or no(n))');
@@ -15,54 +16,85 @@ function question1() {
     alert('no,i am form jordan');
     // console.log('no,i am form jordan');
   }
+=======
+let score=0;
+let username = prompt('what is your name');
+function question1(){
+
+alert('helle ' + username + ' lit us play a game');
+
+let contry = prompt('do you think i am from jordan?(yes(y) or no(n))');
+contry = contry.toLowerCase();
+if (contry === 'yes' || contry === 'y') {
+  alert('you are true, i am from jordan');
+  score++;
+  // console.log('you are true, i am from jordan');
+} else {
+  alert('no,i am form jordan');
+  // console.log('no,i am form jordan');
+}
+>>>>>>> 599c80b3ec3a41f108bdd569ff73050436ae771e
 }
 question1();
-
-function question2() {
-  let study = prompt('do you think i am a civil engineer?(yes(y) or no(n))');
-  study = study.toLowerCase();
-  if (study === 'yes' || study === 'y') {
-    alert('you are true, i am a civil engineer');
-    // console.log('you are true, i am a civil engineer');
-    score++
-  } else {
-    alert('no,i am a civil engineer');
-    // console.log('no,i am a civil engineer');
-  }
+function question2(){
+let study = prompt('do you think i am a civil engineer?(yes(y) or no(n))');
+study = study.toLowerCase();
+if (study === 'yes' || study === 'y') {
+  alert('you are true, i am a civil engineer');
+  // console.log('you are true, i am a civil engineer');
+  score++;
+} else {
+  alert('no,i am a civil engineer');
+  // console.log('no,i am a civil engineer');
+}
 }
 question2();
-
-function question3() {
-  let work = prompt('do you think i worked as a civil engineer?(yes(y) or no(n))');
-  work = work.toLowerCase();
-  if (work === 'yes' || work === 'y') {
-    alert('you are true, i worked as civil engineer');
-    // console.log('you are true, i worked as civil engineer');
-    score++
-  } else {
-    alert('no,i worked as civil engineer');
-    // console.log('no,i worked as civil engineer');
-  }
+function question3(){
+let work = prompt('do you think i worked as a civil engineer?(yes(y) or no(n))');
+work = work.toLowerCase();
+if (work === 'yes' || work === 'y') {
+  alert('you are true, i worked as civil engineer');
+  // console.log('you are true, i worked as civil engineer');
+  score++;
+} else {
+  alert('no,i worked as civil engineer');
+  // console.log('no,i worked as civil engineer');
+}
 }
 question3();
-function question4() {
-  let years = prompt('do you think i worked 4 years as a civil engineer?(yes(y) or no(n))');
-  years = years.toLowerCase();
-  if (years === 'yes' || years === 'y') {
-    alert('you are true, i worked as civil engineer 4 years');
-    // console.log('you are true, i worked as civil engineer 4 years');
-    score++
-  } else {
-    alert('no,i worked as civil engineer 4 years');
-    console.log('no,i worked as civil engineer 4 years');
-  }
+function question4(){
+let years = prompt('do you think i worked 4 years as a civil engineer?(yes(y) or no(n))');
+years = years.toLowerCase();
+if (years === 'yes' || years === 'y') {
+  alert('you are true, i worked as civil engineer 4 years');
+  // console.log('you are true, i worked as civil engineer 4 years');
+  score++;
+  
+} else {
+  alert('no,i worked as civil engineer 4 years');
+// console.log('no,i worked as civil engineer 4 years');
 
-
-  alert('thank you ' + username + ' I\'m glad you\'re here');
+}
+alert('thank you ' + username + ' I\'m glad you\'re here');
 }
 question4();
 
+function question5 (){
+for(let number=6;number<10;number++){
+  let i=prompt('gis number from 1 to 10');
+  
+if(i==='7'){
+  alert('the number =7 you are good');
+  score++;
+break;}
+else if (i>7){
+  alert('the number is too high');
+  continue;}
+else if(i<7){
+alert('the number is too low');
+continue;}
 
+<<<<<<< HEAD
 function question5() {
   for (let number = 6; number < 10; number++) {
     let i = prompt('gis number from 1 to 10');
@@ -82,9 +114,25 @@ function question5() {
     }
 
   }
+=======
+}
+>>>>>>> 599c80b3ec3a41f108bdd569ff73050436ae771e
 }
 question5();
+function question6(){
+const courses=['Autocad','prokon','etaps','civil3d','safe'];
+for(let o=0;o<6;o++){
+  // alert(courses[o]);
+  let userInpot=prompt('what is my favoret course in civil engineering?')
+for (let m = 0; m < courses.length; m++) {
+ 
+  if(courses[m]===userInpot){
+    alert('you are good');
+    o=6;
+    score++;
+  break;
 
+<<<<<<< HEAD
 function question6() {
   const courses = ['Autocad', 'prokon', 'etaps', 'civil3d', 'safe'];
   for (let o = 0; o < 6; o++) {
@@ -108,5 +156,17 @@ function question6() {
   alert("Autocad,prokon,etaps,civil3d,safe");
 
   alert('your score is ' + score +' /6')
+=======
+}
+  else{
+    continue;
+  }
+  
+>>>>>>> 599c80b3ec3a41f108bdd569ff73050436ae771e
+}
+}
 }
 question6();
+alert("Autocad,prokon,etaps,civil3d,safe");
+
+alert('your score is '+score+ '/6');
